@@ -123,15 +123,24 @@ button:hover {
   color: antiquewhite;
 }
 
+.card{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .card-image{
-  max-width: 400px;
-	max-height: 200px;
+  width:90%;
 }
 
 .card-title{
+  margin:5px;
   font-size: larger;
   color: beige;
 }
+
 
 .card-link{
   font-size: smaller;
