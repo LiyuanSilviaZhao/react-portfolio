@@ -16,15 +16,15 @@ function Project(props) {
 				src={require(`../../assets/images/${image}`)}
 				className="card-image"
 			/>
-			<div className="center">
+			<div>
 				<Card.Body>
 					<Card.Title className="card-title">{name}</Card.Title>
 					<Card.Link href={appLink} target="_blank" className="card-link">
-						{name} App
+						{name} App link
 					</Card.Link>
 					<br></br>
 					<Card.Link href={gitLink} target="_blank" className="card-link">
-						{name} Github
+						{name} Github link
 					</Card.Link>
 				</Card.Body>
 			</div>

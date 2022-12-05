@@ -1,59 +1,155 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --primary: #468869;
+  --dark: #1a1a1a;
+  --error: rgb(134, 6, 6);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+main {
+  margin: 0 auto;
+  max-width: 98%;
+  padding: 20px 0;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  background: var(--dark);
+  color: beige;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  border-radius: 5px;
+  color: beige;
+  text-decoration: none;
+  padding: 2px 4px;
+  margin-left: -2px;
+  margin-right: -2px;
 }
 
 header{
-  background-color: aqua;
-  height: 100px;
+  background-color:var(--primary);
+  height: 120px;
   display: flex;
   flex-wrap: wrap;
 }
 
-.title{
-  width:20%
+footer {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid black;
+  background: var(--primary); 
 }
-nav-tabs{
-  width:70%;
+
+.title{
+  width:30%;
+  margin-left:30px;
+  height: fit-content;
+}
+
+.navbar{
+  width:60%;
   display:flex;
-  flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .nav-item{
   width:20%
 }
+
+.home{
+  text-align: center;
+}
+
+.about{
+  text-align: center;
+}
+
+.introduction{
+  margin-left:150px;
+  margin-right:150px;
+}
+
+.aboutmepic {
+	max-width: 30%;
+}
+
+.resumePage{
+  text-align: center;
+}
+
+.resumeInfo{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:bisque;
+}
+
+.contactPage{
+  text-align: center;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.contactPage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact-form{
+  width: 10%;
+}
+
+.contact-info{
+  font-size: smaller;
+  color: antiquewhite;
+}
+
+.card-image{
+  max-width: 400px;
+	max-height: 200px;
+}
+
+.card-title{
+  font-size: larger;
+  color: beige;
+}
+
+.card-link{
+  font-size: smaller;
+  color: blanchedalmond;
+}
+
+.page-header{
+  text-align: center;
+}
+
+.project-cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projectCard{
+  width:29%;
+  margin-top: 20px;
+}
+

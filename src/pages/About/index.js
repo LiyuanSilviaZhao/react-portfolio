@@ -2,18 +2,18 @@ import React from 'react';
 
 function About() {
 	return (
-		<section>
-			<div className="center" id="about">
+		<section className="about">
+			<div>
 				<h1 className="page-header">About Me</h1>
 			</div>
-			<div className="center">
-				<img
+			<div>
+				<img 
 					src="https://static.vecteezy.com/system/resources/previews/003/815/991/original/female-programmer-doing-software-coding-free-vector.jpg"
 					alt="about-me"
-					className="photo"
+					className="aboutmepic"
 				/>
 			</div>
-			<div>
+			<div className='introduction'>
 				<p>
 					I am Liyuan Zhao. 
                     At vero eos et accusamus et iusto odio dignissimos ducimus qui blandit

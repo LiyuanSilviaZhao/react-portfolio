@@ -5,11 +5,11 @@ function Header(props) {
 	const { currentPage, setCurrentPage } = props;
 
 	return (
-		<header>
-			<div class="title">
-				<h2>Liyuan Silvia Zhao </h2>
+		<header className="header">
+			<div className="title">
+				<h1>Liyuan Silvia Zhao </h1>
 			</div>
-			<div>
+			<div className="navbar">
 				<Navbar
 					currentPage={currentPage}
 					setCurrentPage={setCurrentPage}

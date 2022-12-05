@@ -42,34 +42,29 @@ function Portfolio() {
 
 	return (
 		<section>
-			<div className="center">
+			<div>
 				<h1 className="page-header">My Portfolio</h1>
 			</div>
-			<div>
-				<ul className="flex-row mobile-row">
-					<li className="padding">
+			<div className='project-cards'>
+					<div className="projectCard">
 						<Project projects={projects[0]}></Project>
-					</li>
-					<li className="padding">
+					</div>
+					<div className="projectCard">
 						<Project projects={projects[1]}></Project>
-					</li>
-				</ul>
-				<ul className="flex-row mobile-row">
-					<li className="padding">
+					</div>
+
+					<div className="projectCard">
 						<Project projects={projects[2]}></Project>
-					</li>
-					<li className="padding">
+					</div>
+					<div className="projectCard">
 						<Project projects={projects[3]}></Project>
-					</li>
-				</ul>
-				<ul className="flex-row mobile-row">
-					<li className="padding">
+					</div>
+					<div className="projectCard">
 						<Project projects={projects[4]}></Project>
-					</li>
-					<li className="padding">
+					</div>
+					<div className="projectCard">
 						<Project projects={projects[5]}></Project>
-					</li>
-				</ul>
+					</div>
 			</div>
 		</section>
 	);
