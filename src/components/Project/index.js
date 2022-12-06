@@ -7,6 +7,7 @@ function Project(props) {
 	const image = currentProject.image;
 	const appLink = currentProject.deployed;
 	const gitLink = currentProject. github;
+	
 return (
 	<div className="card">
 		<img

@@ -38,11 +38,14 @@ a {
   margin-right: -2px;
 }
 
+
 header{
   background-color:var(--primary);
-  height: 120px;
+  height:25%;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 footer {
@@ -58,16 +61,19 @@ footer {
 }
 
 .title{
-  width:30%;
-  margin-left:30px;
-  height: fit-content;
+  width:25%;
+  margin-left:20px;
 }
 
 .navbar{
-  width:60%;
+  width:70%;
+}
+
+.navbarPage{
   display:flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 }
 
 .nav-item{
@@ -76,15 +82,26 @@ footer {
 
 .home{
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10%;
+
 }
 
+.home img{
+  margin-left:20%;
+  margin-right:20%;
+}
 .about{
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10%;
 }
 
 .introduction{
-  margin-left:150px;
-  margin-right:150px;
+  margin-left:20%;
+  margin-right:20%;
 }
 
 .aboutmepic {
@@ -93,6 +110,10 @@ footer {
 
 .resumePage{
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 .resumeInfo{
@@ -101,7 +122,9 @@ footer {
 }
 
 .contactPage{
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 button:hover {
@@ -112,6 +135,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 10%;
 }
 
 #contact-form{
@@ -141,7 +165,6 @@ button:hover {
   color: beige;
 }
 
-
 .card-link{
   font-size: smaller;
   color: blanchedalmond;
@@ -155,10 +178,31 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 10%;
 }
 
 .projectCard{
   width:29%;
   margin-top: 20px;
 }
+
+@media (max-width: 1050px) {
+  .projectCard{
+    width:45%;
+  }
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    width:98%
+  }
+  .title{
+    width:100%;
+  }
+  .projectCard{
+    width:90%;
+  }
+}
+
+
 

@@ -15,7 +15,7 @@ function About() {
 			</div>
 			<div className='introduction'>
 				<p>
-					I am Liyuan Zhao. 
+					I am Liyuan. 
                     At vero eos et accusamus et iusto odio dignissimos ducimus qui blandit
                     iis praesentium voluptatum deleniti atque corrupti quos dolores et quas moles
                     tias excepturi sint occaecati cupiditate non provident, similique sunt in culpa
