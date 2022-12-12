@@ -13,6 +13,7 @@ return (
 		<img
 			variant="top"
 			src={require(`../../assets/images/${image}`)}
+			alt=""
 			className="card-image"
 		/>
 			<div className="card-content">
